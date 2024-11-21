@@ -1,13 +1,37 @@
+body {
+    margin: 20px auto;
+    box-sizing: border-box;
+    border: 20px solid salmon;
+    border-radius: 10px;
+    width: 900px;
+    height: 650px;
+}
+
+span {
+    background-color: salmon;
+}
+
 div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 600px;
-    border: 2px solid black;
-    margin: 80px auto;
+    margin: 30px auto;
 }
 
 p {
-    border: 1px solid black;
+    border: 1px solid salmon;
+    border-radius: 4px;
     margin: 0;
+}
+
+button {
+    display: flex;
+    margin: 17px auto;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: salmon;
+    border: 3px solid salmon;
+    border-radius: 4px;
 }
