@@ -20,7 +20,7 @@ btn.addEventListener('click', () => {
 }
     div.innerHTML = '';
     
-    const cellSize = Math.floor (500 / newGrid);
+    const cellSize = Math.floor (520 / newGrid);
 
     for (let i = 1; i <= newGrid * newGrid; i++) {
         const element = document.createElement('p');
