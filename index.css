@@ -2,13 +2,12 @@ div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px 300px;
+    width: 600px;
+    border: 2px solid black;
+    margin: 80px auto;
 }
 
 p {
-    display: flex;
     border: 1px solid black;
-    height: 200px;
-    width: 200px;
     margin: 0;
 }
